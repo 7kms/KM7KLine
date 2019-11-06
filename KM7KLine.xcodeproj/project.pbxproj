@@ -14,6 +14,25 @@
 		942FED8F23085F0200788B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942FED8D23085F0200788B85 /* LaunchScreen.storyboard */; };
 		942FED9223085F0200788B85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FED9123085F0200788B85 /* main.m */; };
 		942FED9C23085F0200788B85 /* KM7KLineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FED9B23085F0200788B85 /* KM7KLineUITests.m */; };
+		942FEDC523085F9200788B85 /* KM7StockChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDAC23085F9200788B85 /* KM7StockChartView.m */; };
+		942FEDC623085F9200788B85 /* KM7StockGlobalVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDAE23085F9200788B85 /* KM7StockGlobalVariable.m */; };
+		942FEDC723085F9200788B85 /* KM7KLineModelManeger.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDB623085F9200788B85 /* KM7KLineModelManeger.m */; };
+		942FEDC823085F9200788B85 /* KM7KLinePositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDB723085F9200788B85 /* KM7KLinePositionModel.m */; };
+		942FEDC923085F9200788B85 /* KM7KLineVolumePosionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDB923085F9200788B85 /* KM7KLineVolumePosionModel.m */; };
+		942FEDCA23085F9200788B85 /* KM7KLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDBA23085F9200788B85 /* KM7KLineModel.m */; };
+		942FEDCB23085F9200788B85 /* KM7VolumeMAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDBD23085F9200788B85 /* KM7VolumeMAView.m */; };
+		942FEDCC23085F9200788B85 /* KM7KLineMAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDBE23085F9200788B85 /* KM7KLineMAView.m */; };
+		942FEDCD23085F9200788B85 /* KM7KLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDC123085F9200788B85 /* KM7KLineView.m */; };
+		942FEDCE23085F9200788B85 /* KM7KLineDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDC323085F9200788B85 /* KM7KLineDetailView.m */; };
+		942FEDED230860DF00788B85 /* UILabel+KM7Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDD2230860DC00788B85 /* UILabel+KM7Extention.m */; };
+		942FEDF1230860DF00788B85 /* NSString+KM7Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDD8230860DC00788B85 /* NSString+KM7Extention.m */; };
+		942FEDF3230860DF00788B85 /* NSTimer+KM7Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDDF230860DD00788B85 /* NSTimer+KM7Extention.m */; };
+		942FEDF4230860DF00788B85 /* UIView+KM7Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDE1230860DD00788B85 /* UIView+KM7Extention.m */; };
+		942FEDF6230860DF00788B85 /* UIColor+KM7Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEDE8230860DE00788B85 /* UIColor+KM7Extention.m */; };
+		942FEDFD23086F8B00788B85 /* kline.json in Resources */ = {isa = PBXBuildFile; fileRef = 942FEDFC23086F8B00788B85 /* kline.json */; };
+		94975094236896250039C46C /* hbmin.json in Resources */ = {isa = PBXBuildFile; fileRef = 94975093236896250039C46C /* hbmin.json */; };
+		94A19A4B236B0A4400814ED9 /* hb15min.json in Resources */ = {isa = PBXBuildFile; fileRef = 94A19A4A236B0A4400814ED9 /* hb15min.json */; };
+		94A19A4D236FEA7100814ED9 /* hb4hour.json in Resources */ = {isa = PBXBuildFile; fileRef = 94A19A4C236FEA7100814ED9 /* hb4hour.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +59,41 @@
 		942FED9723085F0200788B85 /* KM7KLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KM7KLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		942FED9B23085F0200788B85 /* KM7KLineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KM7KLineUITests.m; sourceTree = "<group>"; };
 		942FED9D23085F0200788B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942FEDAC23085F9200788B85 /* KM7StockChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7StockChartView.m; sourceTree = "<group>"; };
+		942FEDAE23085F9200788B85 /* KM7StockGlobalVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7StockGlobalVariable.m; sourceTree = "<group>"; };
+		942FEDAF23085F9200788B85 /* KM7StockGlobalVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7StockGlobalVariable.h; sourceTree = "<group>"; };
+		942FEDB023085F9200788B85 /* KM7StockConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7StockConstant.h; sourceTree = "<group>"; };
+		942FEDB123085F9200788B85 /* KM7StockChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7StockChartView.h; sourceTree = "<group>"; };
+		942FEDB323085F9200788B85 /* KM7KLinePositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7KLinePositionModel.h; sourceTree = "<group>"; };
+		942FEDB423085F9200788B85 /* KM7KLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7KLineModel.h; sourceTree = "<group>"; };
+		942FEDB523085F9200788B85 /* KM7KLineVolumePosionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7KLineVolumePosionModel.h; sourceTree = "<group>"; };
+		942FEDB623085F9200788B85 /* KM7KLineModelManeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7KLineModelManeger.m; sourceTree = "<group>"; };
+		942FEDB723085F9200788B85 /* KM7KLinePositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7KLinePositionModel.m; sourceTree = "<group>"; };
+		942FEDB823085F9200788B85 /* KM7KLineModelManeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7KLineModelManeger.h; sourceTree = "<group>"; };
+		942FEDB923085F9200788B85 /* KM7KLineVolumePosionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7KLineVolumePosionModel.m; sourceTree = "<group>"; };
+		942FEDBA23085F9200788B85 /* KM7KLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7KLineModel.m; sourceTree = "<group>"; };
+		942FEDBC23085F9200788B85 /* KM7KLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7KLineView.h; sourceTree = "<group>"; };
+		942FEDBD23085F9200788B85 /* KM7VolumeMAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7VolumeMAView.m; sourceTree = "<group>"; };
+		942FEDBE23085F9200788B85 /* KM7KLineMAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7KLineMAView.m; sourceTree = "<group>"; };
+		942FEDBF23085F9200788B85 /* KM7KLineDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7KLineDetailView.h; sourceTree = "<group>"; };
+		942FEDC023085F9200788B85 /* KM7VolumeMAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7VolumeMAView.h; sourceTree = "<group>"; };
+		942FEDC123085F9200788B85 /* KM7KLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7KLineView.m; sourceTree = "<group>"; };
+		942FEDC223085F9200788B85 /* KM7KLineMAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KM7KLineMAView.h; sourceTree = "<group>"; };
+		942FEDC323085F9200788B85 /* KM7KLineDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KM7KLineDetailView.m; sourceTree = "<group>"; };
+		942FEDD2230860DC00788B85 /* UILabel+KM7Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KM7Extention.m"; sourceTree = "<group>"; };
+		942FEDD3230860DC00788B85 /* UIView+KM7Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KM7Extention.h"; sourceTree = "<group>"; };
+		942FEDD7230860DC00788B85 /* NSTimer+KM7Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+KM7Extention.h"; sourceTree = "<group>"; };
+		942FEDD8230860DC00788B85 /* NSString+KM7Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KM7Extention.m"; sourceTree = "<group>"; };
+		942FEDD9230860DC00788B85 /* UIColor+KM7Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KM7Extention.h"; sourceTree = "<group>"; };
+		942FEDDF230860DD00788B85 /* NSTimer+KM7Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+KM7Extention.m"; sourceTree = "<group>"; };
+		942FEDE1230860DD00788B85 /* UIView+KM7Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KM7Extention.m"; sourceTree = "<group>"; };
+		942FEDE2230860DE00788B85 /* NSString+KM7Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KM7Extention.h"; sourceTree = "<group>"; };
+		942FEDE3230860DE00788B85 /* UILabel+KM7Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KM7Extention.h"; sourceTree = "<group>"; };
+		942FEDE8230860DE00788B85 /* UIColor+KM7Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KM7Extention.m"; sourceTree = "<group>"; };
+		942FEDFC23086F8B00788B85 /* kline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kline.json; sourceTree = "<group>"; };
+		94975093236896250039C46C /* hbmin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hbmin.json; sourceTree = "<group>"; };
+		94A19A4A236B0A4400814ED9 /* hb15min.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hb15min.json; sourceTree = "<group>"; };
+		94A19A4C236FEA7100814ED9 /* hb4hour.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hb4hour.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +135,8 @@
 		942FED8123085F0100788B85 /* KM7KLine */ = {
 			isa = PBXGroup;
 			children = (
+				942FEDFB23086F5E00788B85 /* MockData */,
+				942FEDA823085F9200788B85 /* KLineCore */,
 				942FED8223085F0100788B85 /* AppDelegate.h */,
 				942FED8323085F0100788B85 /* AppDelegate.m */,
 				942FED8523085F0100788B85 /* ViewController.h */,
@@ -101,6 +157,87 @@
 				942FED9D23085F0200788B85 /* Info.plist */,
 			);
 			path = KM7KLineUITests;
+			sourceTree = "<group>";
+		};
+		942FEDA823085F9200788B85 /* KLineCore */ = {
+			isa = PBXGroup;
+			children = (
+				942FEDB123085F9200788B85 /* KM7StockChartView.h */,
+				942FEDAC23085F9200788B85 /* KM7StockChartView.m */,
+				942FEDA923085F9200788B85 /* Category */,
+				942FEDAD23085F9200788B85 /* Config */,
+				942FEDBB23085F9200788B85 /* KLine */,
+				942FEDB223085F9200788B85 /* Model */,
+			);
+			path = KLineCore;
+			sourceTree = "<group>";
+		};
+		942FEDA923085F9200788B85 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				942FEDE2230860DE00788B85 /* NSString+KM7Extention.h */,
+				942FEDD8230860DC00788B85 /* NSString+KM7Extention.m */,
+				942FEDD7230860DC00788B85 /* NSTimer+KM7Extention.h */,
+				942FEDDF230860DD00788B85 /* NSTimer+KM7Extention.m */,
+				942FEDD9230860DC00788B85 /* UIColor+KM7Extention.h */,
+				942FEDE8230860DE00788B85 /* UIColor+KM7Extention.m */,
+				942FEDE3230860DE00788B85 /* UILabel+KM7Extention.h */,
+				942FEDD2230860DC00788B85 /* UILabel+KM7Extention.m */,
+				942FEDD3230860DC00788B85 /* UIView+KM7Extention.h */,
+				942FEDE1230860DD00788B85 /* UIView+KM7Extention.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		942FEDAD23085F9200788B85 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				942FEDAE23085F9200788B85 /* KM7StockGlobalVariable.m */,
+				942FEDAF23085F9200788B85 /* KM7StockGlobalVariable.h */,
+				942FEDB023085F9200788B85 /* KM7StockConstant.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		942FEDB223085F9200788B85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				942FEDB423085F9200788B85 /* KM7KLineModel.h */,
+				942FEDBA23085F9200788B85 /* KM7KLineModel.m */,
+				942FEDB823085F9200788B85 /* KM7KLineModelManeger.h */,
+				942FEDB623085F9200788B85 /* KM7KLineModelManeger.m */,
+				942FEDB323085F9200788B85 /* KM7KLinePositionModel.h */,
+				942FEDB723085F9200788B85 /* KM7KLinePositionModel.m */,
+				942FEDB523085F9200788B85 /* KM7KLineVolumePosionModel.h */,
+				942FEDB923085F9200788B85 /* KM7KLineVolumePosionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		942FEDBB23085F9200788B85 /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				942FEDBF23085F9200788B85 /* KM7KLineDetailView.h */,
+				942FEDC323085F9200788B85 /* KM7KLineDetailView.m */,
+				942FEDC223085F9200788B85 /* KM7KLineMAView.h */,
+				942FEDBE23085F9200788B85 /* KM7KLineMAView.m */,
+				942FEDBC23085F9200788B85 /* KM7KLineView.h */,
+				942FEDC123085F9200788B85 /* KM7KLineView.m */,
+				942FEDC023085F9200788B85 /* KM7VolumeMAView.h */,
+				942FEDBD23085F9200788B85 /* KM7VolumeMAView.m */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		942FEDFB23086F5E00788B85 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				942FEDFC23086F8B00788B85 /* kline.json */,
+				94975093236896250039C46C /* hbmin.json */,
+				94A19A4A236B0A4400814ED9 /* hb15min.json */,
+				94A19A4C236FEA7100814ED9 /* hb4hour.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				942FED8F23085F0200788B85 /* LaunchScreen.storyboard in Resources */,
+				94975094236896250039C46C /* hbmin.json in Resources */,
+				942FEDFD23086F8B00788B85 /* kline.json in Resources */,
+				94A19A4D236FEA7100814ED9 /* hb4hour.json in Resources */,
 				942FED8C23085F0200788B85 /* Assets.xcassets in Resources */,
+				94A19A4B236B0A4400814ED9 /* hb15min.json in Resources */,
 				942FED8A23085F0100788B85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,9 +344,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942FEDF6230860DF00788B85 /* UIColor+KM7Extention.m in Sources */,
 				942FED8723085F0100788B85 /* ViewController.m in Sources */,
+				942FEDF4230860DF00788B85 /* UIView+KM7Extention.m in Sources */,
+				942FEDC523085F9200788B85 /* KM7StockChartView.m in Sources */,
+				942FEDCB23085F9200788B85 /* KM7VolumeMAView.m in Sources */,
+				942FEDC823085F9200788B85 /* KM7KLinePositionModel.m in Sources */,
+				942FEDF1230860DF00788B85 /* NSString+KM7Extention.m in Sources */,
+				942FEDCA23085F9200788B85 /* KM7KLineModel.m in Sources */,
+				942FEDF3230860DF00788B85 /* NSTimer+KM7Extention.m in Sources */,
 				942FED9223085F0200788B85 /* main.m in Sources */,
+				942FEDED230860DF00788B85 /* UILabel+KM7Extention.m in Sources */,
+				942FEDC923085F9200788B85 /* KM7KLineVolumePosionModel.m in Sources */,
+				942FEDCD23085F9200788B85 /* KM7KLineView.m in Sources */,
+				942FEDCE23085F9200788B85 /* KM7KLineDetailView.m in Sources */,
 				942FED8423085F0100788B85 /* AppDelegate.m in Sources */,
+				942FEDC623085F9200788B85 /* KM7StockGlobalVariable.m in Sources */,
+				942FEDCC23085F9200788B85 /* KM7KLineMAView.m in Sources */,
+				942FEDC723085F9200788B85 /* KM7KLineModelManeger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = KM7KLine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = KM7KLine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
