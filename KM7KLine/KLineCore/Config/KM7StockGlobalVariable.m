@@ -14,7 +14,7 @@
 /**
  *  K线图的宽度
  */
-static CGFloat KM7StockChartKLineWidth = 8;
+static CGFloat KM7StockChartKLineWidth = 6;
 
 /**
  *  K线图的间隔
@@ -34,8 +34,17 @@ static CGFloat KM7StockChartKLineVolumeViewRadio = 0.3;
 
 
 
+static KM7KlineIntialDirection KM7InitialKlineDirection = KM7KlineIntialDirectionStart;
+
 @implementation KM7StockGlobalVariable
 
++ (KM7KlineIntialDirection)initialKlineDirection{
+    return KM7InitialKlineDirection;
+}
+
++ (void)setInitialKlineDirection:(KM7KlineIntialDirection)direction{
+    KM7InitialKlineDirection = direction;
+}
 
 + (CGColorRef)klineMainViewBgColor{
     return [UIColor colorFromHexCode:@"#111D2D"].CGColor;

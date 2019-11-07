@@ -42,8 +42,17 @@ typedef NS_ENUM(NSUInteger, KM7KlineDateType) {
     KM7KlineDateTypeMore,//更多
 };
 
+// 初始化K线的显示位置: (展示k线图的scrollview是否需要滚到最后)
+typedef NS_ENUM(NSUInteger, KM7KlineIntialDirection) {
+    KM7KlineIntialDirectionStart,// scrollview滚动到最前面, 能展示出第一根k线
+    KM7KlineIntialDirectionEnd,// scrollview滚动到最后面, 能展示出最后一根k线
+};
+
 
 @interface KM7StockGlobalVariable : UIView
+
++ (KM7KlineIntialDirection) initialKlineDirection;
++ (void)setInitialKlineDirection:(KM7KlineIntialDirection)direction;
 
 
 //============== color config ==================

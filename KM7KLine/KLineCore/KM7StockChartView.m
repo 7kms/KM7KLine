@@ -14,6 +14,7 @@
 #import "KM7KLinePositionModel.h"
 #import "UILabel+KM7Extention.h"
 #import "UIView+KM7Extention.h"
+#import <UIKit/UIKit.h>
 
 
 static BOOL isNeedPostNotification = YES;
@@ -156,15 +157,29 @@ static BOOL isNeedPostNotification = YES;
         self.scrollView.contentOffset = CGPointMake(new_x, 0);
         self.pinchStartIndex = -1;
     }else{
-        if (offset > 0){
-            if(self.oldScrollOffsetRight){// 如果是加载更多 进来的数据,scrollView.contentOffset要设置到加载之前的位置, 保证体验连贯
-                self.scrollView.contentOffset = CGPointMake(kLineViewWidth - self.oldScrollOffsetRight, 0);
+        if(self.oldScrollOffsetRight){// 如果是加载更多 进来的数据,scrollView.contentOffset要设置到加载之前的位置, 保证体验连贯
+            self.scrollView.contentOffset = CGPointMake(kLineViewWidth - self.oldScrollOffsetRight, 0);
+        }else{
+            if([KM7StockGlobalVariable initialKlineDirection] == KM7KlineIntialDirectionStart){
+                self.scrollView.contentOffset = CGPointMake(0, 0);
             }else{
-                self.scrollView.contentOffset = CGPointMake(offset, 0);
+                self.scrollView.contentOffset = CGPointMake(MAX(offset, 0), 0);
             }
-        } else {
-            self.scrollView.contentOffset = CGPointMake(0, 0);
         }
+        
+//        if (offset > 0){
+//            if(self.oldScrollOffsetRight){// 如果是加载更多 进来的数据,scrollView.contentOffset要设置到加载之前的位置, 保证体验连贯
+//                self.scrollView.contentOffset = CGPointMake(kLineViewWidth - self.oldScrollOffsetRight, 0);
+//            }else{
+//                if([KM7StockGlobalVariable initialKlineDirection] == KM7KlineIntialDirectionStart){
+//                    self.scrollView.contentOffset = CGPointMake(0, 0);
+//                }else{
+//                    self.scrollView.contentOffset = CGPointMake(offset, 0);
+//                }
+//            }
+//        } else {
+//            self.scrollView.contentOffset = CGPointMake(0, 0);
+//        }
     }
 }
 - (void)drawMainView{
